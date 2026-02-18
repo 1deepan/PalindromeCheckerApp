@@ -1,6 +1,6 @@
 package service;
 
-public class PalindromeService {
+public class PalindromeCheckerApp.java {
 
     public static boolean isPalindrome(String text) {
         text = text.toLowerCase().replaceAll("[^a-z0-9]", "");
